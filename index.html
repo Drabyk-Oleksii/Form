@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<header>
+    <h1>Create an Account</h1>
+</header>
+<main>
+    <div>
+        <form action="#"name="personal_data">
+            <div>
+                <p>First name</p>
+                <input type="text" name="data1">
+            </div>
+            <div>
+                <p>Last name</p>
+                <input class="right" type="text" name="data2">
+            </div>
+            <div>
+                <p>E-mail</p>
+                <input type="email" name="email" id="data3">
+            </div>
+            <br>
+            <div>
+                <input checked type="radio" id="contactChoice1"
+                       name="contact" value="email">
+                <label for="contactChoice1">Male</label>
+
+                <input type="radio" id="contactChoice2"
+                       name="contact" value="phone">
+                <label for="contactChoice2">Female</label>
+            </div>
+            <div>
+                <p>Country</p>
+                <select name="country">
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Other World">Other World</option>
+                </select>
+            </div>
+            <div>
+                <p>City</p>
+                <input type="text" name="city">
+            </div>
+            <br>
+            <div>
+                <button type="submit"> Sign Up </button>
+            </div>
+        </form>
+    </div>
+</main>
+<footer>
+    <div>
+      <h3>
+          By clicking the 'Sign Up' button, you confirm that you accept <br>
+          <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+      </h3>
+    </div>
+    <div>
+        <h3>Have an account? <a href="#">Log In</a></h3>
+    </div>
+</footer>
+</body>
+</html>
